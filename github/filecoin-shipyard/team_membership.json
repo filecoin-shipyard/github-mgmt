@@ -1,1 +1,24 @@
-{}
+{
+  "Lotus JS Client": {
+    "alanshaw": {
+      "role": "maintainer"
+    },
+    "jimpick": {
+      "role": "member"
+    },
+    "rvagg": {
+      "role": "maintainer"
+    },
+    "vasco-santos": {
+      "role": "maintainer"
+    }
+  },
+  "w3dt-stewards": {
+    "BigLep": {
+      "role": "maintainer"
+    },
+    "rvagg": {
+      "role": "member"
+    }
+  }
+}

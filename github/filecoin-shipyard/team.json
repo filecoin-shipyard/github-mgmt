@@ -1,1 +1,10 @@
-{}
+{
+  "Lotus JS Client": {
+    "id": "4007124",
+    "parent_team_id": null
+  },
+  "w3dt-stewards": {
+    "id": "4657021",
+    "parent_team_id": null
+  }
+}

@@ -1,1 +1,144 @@
-{}
+{
+  "Lotus JS Client": {
+    "js-lotus-client": {
+      "permission": "admin"
+    },
+    "js-lotus-client-provider-browser": {
+      "permission": "admin"
+    },
+    "js-lotus-client-provider-nodejs": {
+      "permission": "admin"
+    },
+    "js-lotus-client-rpc": {
+      "permission": "admin"
+    },
+    "js-lotus-client-schema": {
+      "permission": "admin"
+    },
+    "js-lotus-client-workshop": {
+      "permission": "admin"
+    }
+  },
+  "w3dt-stewards": {
+    "2019-filecoin-network-stats": {
+      "permission": "admin"
+    },
+    "NFT-Snapshot-Bot": {
+      "permission": "admin"
+    },
+    "browser-retrieval": {
+      "permission": "admin"
+    },
+    "dumbo-drop": {
+      "permission": "admin"
+    },
+    "fil-flow": {
+      "permission": "admin"
+    },
+    "filecoin-big-head": {
+      "permission": "admin"
+    },
+    "filecoin-browse-asks": {
+      "permission": "admin"
+    },
+    "filecoin-cid-checker": {
+      "permission": "admin"
+    },
+    "filecoin-network-inspector": {
+      "permission": "admin"
+    },
+    "filecoin-pickaxe": {
+      "permission": "admin"
+    },
+    "filecoin-pickaxe-agent": {
+      "permission": "admin"
+    },
+    "filecoin-pickaxe-direct-deal": {
+      "permission": "admin"
+    },
+    "filecoin-storage-helper": {
+      "permission": "admin"
+    },
+    "filecoin-tipset-visualizer": {
+      "permission": "admin"
+    },
+    "filecoin-wallet": {
+      "permission": "admin"
+    },
+    "filecoin.js": {
+      "permission": "admin"
+    },
+    "filscan-block-explorer": {
+      "permission": "admin"
+    },
+    "hactar": {
+      "permission": "admin"
+    },
+    "java-filecoin-api-client": {
+      "permission": "admin"
+    },
+    "js-filecoin-api-client": {
+      "permission": "admin"
+    },
+    "js-lotus-client": {
+      "permission": "admin"
+    },
+    "js-lotus-client-provider-browser": {
+      "permission": "admin"
+    },
+    "js-lotus-client-provider-nodejs": {
+      "permission": "admin"
+    },
+    "js-lotus-client-rpc": {
+      "permission": "admin"
+    },
+    "js-lotus-client-schema": {
+      "permission": "admin"
+    },
+    "js-lotus-client-workshop": {
+      "permission": "admin"
+    },
+    "lighthouse-eth-fil-crosschain-infra": {
+      "permission": "admin"
+    },
+    "lotus-devnet": {
+      "permission": "admin"
+    },
+    "lotus-wasm-experiments": {
+      "permission": "admin"
+    },
+    "meme-marketplace": {
+      "permission": "admin"
+    },
+    "meme-nft-token": {
+      "permission": "admin"
+    },
+    "npm-go-filecoin-dep": {
+      "permission": "admin"
+    },
+    "orbit-db-powergate-io": {
+      "permission": "admin"
+    },
+    "pinning-service-aggregation": {
+      "permission": "admin"
+    },
+    "powergate-pinning-service": {
+      "permission": "admin"
+    },
+    "proxy-retrieval": {
+      "permission": "admin"
+    },
+    "tour-de-lotus": {
+      "permission": "admin"
+    },
+    "use-filecoin-config": {
+      "permission": "admin"
+    },
+    "use-filecoin-head": {
+      "permission": "admin"
+    },
+    "use-filecoin-network-info": {
+      "permission": "admin"
+    }
+  }
+}
