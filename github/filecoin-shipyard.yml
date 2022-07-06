@@ -1,0 +1,498 @@
+# yaml-language-server: $schema=.schema.json
+
+members:
+  admin:
+    - BigLep
+    - eshon
+    - galargh
+    - mishmosh
+    - pooja
+    - protocollabsit
+  member:
+    - alanshaw
+    - andyschwab
+    - arajasek
+    - brunolm
+    - jimmylee
+    - jimpick
+    - mikeal
+    - morrigan
+    - protocollabsit-readonly
+    - rvagg
+    - steven004
+    - vasa-develop
+    - vasco-santos
+    - waynewyang
+    - web3-bot
+    - willscott
+    - yangjian102621
+repositories:
+  2019-filecoin-network-stats:
+    branch_protection:
+      master: {}
+      release: {}
+    collaborators:
+      admin:
+        - eshon
+    description: (Deprecated) Dashboard by Kyokan for tracking network state of
+      go-filecoin devnets in 2019.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  NFT-Snapshot-Bot:
+    collaborators:
+      maintain:
+        - jamesmorgan
+        - vince0656
+    description: Filecoin and Ethereum-based NFT Snapshot Bot for Twitter threads
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  browser-retrieval:
+    collaborators:
+      admin:
+        - aistoc
+        - brunolm
+        - cezarparaschiv
+        - ionutiorgulescu
+    description: A p2p network of Filecoin content retrievers
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  dumbo-drop:
+    collaborators:
+      admin:
+        - mikeal
+    description: In Development
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  fil-flow:
+    collaborators:
+      admin:
+        - alanshaw
+        - hsanjuan
+        - iand
+        - jbenet
+        - nicola
+        - olizilla
+        - placer14
+        - willscott
+        - zixuanzh
+    description: Visualising token flows.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: private
+  filecoin-big-head:
+    collaborators:
+      push:
+        - jimpick
+    description: Displays Filecoin chain height in big letters in terminal
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-browse-asks:
+    collaborators:
+      push:
+        - jimpick
+    description: Scroll through Filecoin asks in your terminal
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-cid-checker:
+    collaborators:
+      admin:
+        - alexandrumatei36
+        - smooth-operator
+      maintain:
+        - vschernoff
+    description: A website and API to verify the status of CIDs stored on Filecoin
+      without a full node
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-network-inspector:
+    collaborators:
+      maintain:
+        - vasa-develop
+      push:
+        - brunolm
+    description: An inspector dashboard for filecoin
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-pickaxe:
+    collaborators:
+      push:
+        - jimpick
+    description: Tool for storing/retrieving data in Filecoin
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-pickaxe-agent:
+    collaborators:
+      push:
+        - jimpick
+    description: Agent to perform requested Filecoin tasks
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-pickaxe-direct-deal:
+    collaborators:
+      push:
+        - jimpick
+    description: Quickly make Filecoin deals for pickaxe bundles
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-storage-helper:
+    collaborators:
+      admin:
+        - waynewyang
+    description: filecoin storage helper
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-tipset-visualizer:
+    collaborators:
+      admin:
+        - liviudm
+        - smooth-operator
+      maintain:
+        - andreirykov
+    description: Shows the Tipset structure of the Filecoin blockchain, a Tipset at
+      each height can contain multiple blocks.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-wallet:
+    collaborators:
+      admin:
+        - yangjian102621
+    description: A web Filecoin wallet developed in Java
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin.js:
+    collaborators:
+      admin:
+        - alexandrumatei36
+      maintain:
+        - popra
+        - smooth-operator
+      push:
+        - web3-bot
+    description: A JavaScript (and TypeScript) library for interacting with the
+      Filecoin's Lotus node, with support for external signers.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filscan-block-explorer:
+    collaborators:
+      maintain:
+        - steven004
+      push:
+        - web3-bot
+    description: Filscan.io block and message explorer
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  github-mgmt:
+    branch_protection:
+      master: {}
+    visibility: public
+  hactar:
+    collaborators:
+      admin:
+        - morrigan
+    description: Analysis and monitoring tool for Filecoin miners.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  index-observer:
+    branch_protection:
+      main: {}
+    collaborators:
+      admin:
+        - willscott
+      maintain:
+        - masih
+      push:
+        - sti-bot
+    description: An observability tool for storetheindex content routing systems & providers
+    visibility: public
+  java-filecoin-api-client:
+    collaborators:
+      push:
+        - yangjian102621
+    description: An API client for Filecoin implemented in Java
+    teams:
+      admin:
+        - w3dt-stewards
+    topics:
+      - api
+      - filecoin
+      - http
+      - java
+      - retrofit2
+      - spring-boot
+    visibility: public
+  js-filecoin-api-client:
+    collaborators:
+      admin:
+        - alanshaw
+        - mishmosh
+    description: An API client for Filecoin
+    teams:
+      admin:
+        - w3dt-stewards
+    topics:
+      - api
+      - fil
+      - filecoin
+      - http
+      - javascript
+      - rest
+    visibility: public
+  js-lotus-client:
+    collaborators:
+      push:
+        - web3-bot
+    description: Lotus JS Client
+    teams:
+      admin:
+        - Lotus JS Client
+        - w3dt-stewards
+    visibility: public
+  js-lotus-client-provider-browser:
+    collaborators:
+      push:
+        - web3-bot
+    description: Lotus JS Client Web Browser Provider module
+    teams:
+      admin:
+        - Lotus JS Client
+        - w3dt-stewards
+    visibility: public
+  js-lotus-client-provider-nodejs:
+    collaborators:
+      push:
+        - web3-bot
+    description: Lotus JS Client Node.js Provider module
+    teams:
+      admin:
+        - Lotus JS Client
+        - w3dt-stewards
+    visibility: public
+  js-lotus-client-rpc:
+    collaborators:
+      push:
+        - web3-bot
+    description: Lotus JS API JSON-RPC query module
+    teams:
+      admin:
+        - Lotus JS Client
+        - w3dt-stewards
+    visibility: public
+  js-lotus-client-schema:
+    collaborators:
+      push:
+        - web3-bot
+    description: Lotus JS Client Schema module
+    teams:
+      admin:
+        - Lotus JS Client
+        - w3dt-stewards
+    visibility: public
+  js-lotus-client-workshop:
+    collaborators:
+      push:
+        - web3-bot
+    description: Try out an example client app that connects to the Lotus Filecoin
+      implementation
+    teams:
+      admin:
+        - Lotus JS Client
+        - w3dt-stewards
+    visibility: public
+  lighthouse-eth-fil-crosschain-infra:
+    collaborators:
+      maintain:
+        - nandit123
+      push:
+        - web3-bot
+    description: Provides a way for Ethereum smart contracts to request Filecoin
+      storage of CIDs in IPFS via Powergate
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  lotus-devnet:
+    collaborators:
+      maintain:
+        - vasa-develop
+    description: A docker-compose setup for running local lotus and IPFS nodes
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  lotus-wasm-experiments:
+    collaborators:
+      admin:
+        - jimpick
+    description: Experimenting with re-using Lotus to build WebAssembly modules
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  meme-marketplace:
+    collaborators:
+      admin:
+        - vasa-develop
+      push:
+        - brunolm
+    description: A meme marketplace example created using Textile Hub and ERC 721
+      token standard.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  meme-nft-token:
+    collaborators:
+      maintain:
+        - vasa-develop
+    description: Truffle setup for ERC 721 Meme NFT Token
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  npm-go-filecoin-dep:
+    collaborators:
+      push:
+        - alanshaw
+    description: Download go-filecoin to your node_modules.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  orbit-db-powergate-io:
+    collaborators:
+      maintain:
+        - aphelionz
+    description: A bridge between OrbitDB and Filecoin / IPFS via Powergate.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  pinning-service-aggregation:
+    collaborators:
+      maintain:
+        - oed
+        - ukstv
+    description: Use multiple pinning services like they are one, including vanilla
+      IPFS and Powergate backends.
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  powergate-pinning-service:
+    collaborators:
+      maintain:
+        - vasa-develop
+      push:
+        - brunolm
+    description: "A simple pinning service using textile powergate "
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  proxy-retrieval:
+    collaborators:
+      admin:
+        - aistoc
+        - brunolm
+        - ionutiorgulescu
+    description: A simple method of allowing a browser node to retrieve from a
+      stroage miner indirectly through this proxy
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  shipyard:
+    collaborators:
+      admin:
+        - pooja
+    description: Start here if you're interested in learning more about the shipyard
+    visibility: public
+  tour-de-lotus:
+    collaborators:
+      admin:
+        - jimpick
+    description: A slideshow tour of Lotus using the Lotus JS Client
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  use-filecoin-config:
+    collaborators:
+      push:
+        - jimpick
+    description: React hook to load config via Filecoin API
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  use-filecoin-head:
+    collaborators:
+      push:
+        - jimpick
+    description: React hook to query head blocks and chain height via Filecoin API
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  use-filecoin-network-info:
+    collaborators:
+      push:
+        - jimpick
+    description: React hook to query network info via Filecoin API
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+teams:
+  Lotus JS Client:
+    description: Lotus JS Client
+    members:
+      maintainer:
+        - alanshaw
+        - rvagg
+        - vasco-santos
+      member:
+        - jimpick
+    privacy: closed
+  w3dt-stewards:
+    members:
+      maintainer:
+        - BigLep
+      member:
+        - rvagg
+    privacy: closed
