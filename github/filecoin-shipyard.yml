@@ -83,7 +83,10 @@ repositories:
         - placer14
         - willscott
         - zixuanzh
-    description: Visualising token flows.
+      pull:
+        - davidgasquez
+        - kasteph
+  description: Visualising token flows.
     teams:
       admin:
         - w3dt-stewards
