@@ -249,6 +249,16 @@ repositories:
         - sti-bot
     description: An observability tool for storetheindex content routing systems & providers
     visibility: public
+  indexstar:
+    collaborators:
+      admin:
+        - willscott
+      maintain:
+        - masih
+      push:
+        - sti-bot
+    description: ⭐️ A load splitter for storetheindex ⭐️
+    visibility: public
   java-filecoin-api-client:
     collaborators:
       push:
