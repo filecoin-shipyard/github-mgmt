@@ -86,7 +86,7 @@ repositories:
       pull:
         - davidgasquez
         - kasteph
-  description: Visualising token flows.
+    description: Visualising token flows.
     teams:
       admin:
         - w3dt-stewards
