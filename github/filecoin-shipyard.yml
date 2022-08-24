@@ -83,6 +83,9 @@ repositories:
         - placer14
         - willscott
         - zixuanzh
+      pull:
+        - davidgasquez
+        - kasteph
     description: Visualising token flows.
     teams:
       admin:
