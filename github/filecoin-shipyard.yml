@@ -35,6 +35,7 @@ repositories:
     collaborators:
       admin:
         - eshon
+    default_branch: master
     description: (Deprecated) Dashboard by Kyokan for tracking network state of
       go-filecoin devnets in 2019.
     teams:
@@ -46,6 +47,7 @@ repositories:
       maintain:
         - jamesmorgan
         - vince0656
+    default_branch: master
     description: Filecoin and Ethereum-based NFT Snapshot Bot for Twitter threads
     teams:
       admin:
@@ -58,6 +60,7 @@ repositories:
         - brunolm
         - cezarparaschiv
         - ionutiorgulescu
+    default_branch: master
     description: A p2p network of Filecoin content retrievers
     teams:
       admin:
@@ -67,6 +70,7 @@ repositories:
     collaborators:
       admin:
         - mikeal
+    default_branch: master
     description: In Development
     teams:
       admin:
@@ -86,7 +90,7 @@ repositories:
         - zixuanzh
       pull:
         - davidgasquez
-        - kasteph
+    default_branch: main
     description: Visualising token flows.
     teams:
       admin:
@@ -96,6 +100,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: Displays Filecoin chain height in big letters in terminal
     teams:
       admin:
@@ -105,6 +110,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: Scroll through Filecoin asks in your terminal
     teams:
       admin:
@@ -117,6 +123,7 @@ repositories:
         - smooth-operator
       maintain:
         - vschernoff
+    default_branch: master
     description: A website and API to verify the status of CIDs stored on Filecoin
       without a full node
     teams:
@@ -129,6 +136,7 @@ repositories:
         - vasa-develop
       push:
         - brunolm
+    default_branch: master
     description: An inspector dashboard for filecoin
     teams:
       admin:
@@ -138,6 +146,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: Tool for storing/retrieving data in Filecoin
     teams:
       admin:
@@ -147,6 +156,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: Agent to perform requested Filecoin tasks
     teams:
       admin:
@@ -156,6 +166,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: Quickly make Filecoin deals for pickaxe bundles
     teams:
       admin:
@@ -165,6 +176,7 @@ repositories:
     collaborators:
       admin:
         - waynewyang
+    default_branch: master
     description: filecoin storage helper
     teams:
       admin:
@@ -177,6 +189,7 @@ repositories:
         - smooth-operator
       maintain:
         - andreirykov
+    default_branch: main
     description: Shows the Tipset structure of the Filecoin blockchain, a Tipset at
       each height can contain multiple blocks.
     teams:
@@ -187,6 +200,7 @@ repositories:
     collaborators:
       admin:
         - yangjian102621
+    default_branch: master
     description: A web Filecoin wallet developed in Java
     teams:
       admin:
@@ -201,6 +215,7 @@ repositories:
         - smooth-operator
       push:
         - web3-bot
+    default_branch: master
     description: A JavaScript (and TypeScript) library for interacting with the
       Filecoin's Lotus node, with support for external signers.
     teams:
@@ -213,6 +228,7 @@ repositories:
         - steven004
       push:
         - web3-bot
+    default_branch: master
     description: Filscan.io block and message explorer
     teams:
       admin:
@@ -222,6 +238,7 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     branch_protection:
       master: {}
+    default_branch: master
     files:
       CODEOWNERS:
         content: |
@@ -242,6 +259,7 @@ repositories:
     collaborators:
       admin:
         - morrigan
+    default_branch: master
     description: Analysis and monitoring tool for Filecoin miners.
     teams:
       admin:
@@ -257,6 +275,7 @@ repositories:
         - masih
       push:
         - sti-bot
+    default_branch: main
     description: An observability tool for storetheindex content routing systems & providers
     visibility: public
   indexstar:
@@ -267,12 +286,14 @@ repositories:
         - masih
       push:
         - sti-bot
+    default_branch: main
     description: ⭐️ A load splitter for storetheindex ⭐️
     visibility: public
   java-filecoin-api-client:
     collaborators:
       push:
         - yangjian102621
+    default_branch: master
     description: An API client for Filecoin implemented in Java
     teams:
       admin:
@@ -290,6 +311,7 @@ repositories:
       admin:
         - alanshaw
         - mishmosh
+    default_branch: master
     description: An API client for Filecoin
     teams:
       admin:
@@ -306,6 +328,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Lotus JS Client
     teams:
       admin:
@@ -316,6 +339,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Lotus JS Client Web Browser Provider module
     teams:
       admin:
@@ -326,6 +350,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Lotus JS Client Node.js Provider module
     teams:
       admin:
@@ -336,6 +361,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Lotus JS API JSON-RPC query module
     teams:
       admin:
@@ -346,6 +372,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Lotus JS Client Schema module
     teams:
       admin:
@@ -356,6 +383,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Try out an example client app that connects to the Lotus Filecoin
       implementation
     teams:
@@ -369,6 +397,7 @@ repositories:
         - nandit123
       push:
         - web3-bot
+    default_branch: main
     description: Provides a way for Ethereum smart contracts to request Filecoin
       storage of CIDs in IPFS via Powergate
     teams:
@@ -379,6 +408,7 @@ repositories:
     collaborators:
       maintain:
         - vasa-develop
+    default_branch: master
     description: A docker-compose setup for running local lotus and IPFS nodes
     teams:
       admin:
@@ -388,6 +418,7 @@ repositories:
     collaborators:
       admin:
         - jimpick
+    default_branch: main
     description: Experimenting with re-using Lotus to build WebAssembly modules
     teams:
       admin:
@@ -399,6 +430,7 @@ repositories:
         - vasa-develop
       push:
         - brunolm
+    default_branch: master
     description: A meme marketplace example created using Textile Hub and ERC 721
       token standard.
     teams:
@@ -409,6 +441,7 @@ repositories:
     collaborators:
       maintain:
         - vasa-develop
+    default_branch: master
     description: Truffle setup for ERC 721 Meme NFT Token
     teams:
       admin:
@@ -418,6 +451,7 @@ repositories:
     collaborators:
       push:
         - alanshaw
+    default_branch: master
     description: Download go-filecoin to your node_modules.
     teams:
       admin:
@@ -427,6 +461,7 @@ repositories:
     collaborators:
       maintain:
         - aphelionz
+    default_branch: master
     description: A bridge between OrbitDB and Filecoin / IPFS via Powergate.
     teams:
       admin:
@@ -437,6 +472,7 @@ repositories:
       maintain:
         - oed
         - ukstv
+    default_branch: master
     description: Use multiple pinning services like they are one, including vanilla
       IPFS and Powergate backends.
     teams:
@@ -449,6 +485,7 @@ repositories:
         - vasa-develop
       push:
         - brunolm
+    default_branch: master
     description: "A simple pinning service using textile powergate "
     teams:
       admin:
@@ -460,6 +497,7 @@ repositories:
         - aistoc
         - brunolm
         - ionutiorgulescu
+    default_branch: master
     description: A simple method of allowing a browser node to retrieve from a
       stroage miner indirectly through this proxy
     teams:
@@ -470,12 +508,14 @@ repositories:
     collaborators:
       admin:
         - pooja
+    default_branch: master
     description: Start here if you're interested in learning more about the shipyard
     visibility: public
   tour-de-lotus:
     collaborators:
       admin:
         - jimpick
+    default_branch: master
     description: A slideshow tour of Lotus using the Lotus JS Client
     teams:
       admin:
@@ -485,6 +525,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: React hook to load config via Filecoin API
     teams:
       admin:
@@ -494,6 +535,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: React hook to query head blocks and chain height via Filecoin API
     teams:
       admin:
@@ -503,6 +545,7 @@ repositories:
     collaborators:
       push:
         - jimpick
+    default_branch: master
     description: React hook to query network info via Filecoin API
     teams:
       admin:
