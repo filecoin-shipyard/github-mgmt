@@ -233,7 +233,7 @@ repositories:
         content: |
           # The ipdx team is responsible for GitHub Management maintenance
           * @filecoin-shipyard/ipdx
-          
+
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/filecoin-shipyard.yml @filecoin-shipyard/github-mgmt-stewards @filecoin-shipyard/ipdx
@@ -552,16 +552,6 @@ repositories:
         - w3dt-stewards
     visibility: public
 teams:
-  Lotus JS Client:
-    description: Lotus JS Client
-    members:
-      maintainer:
-        - alanshaw
-        - rvagg
-        - vasco-santos
-      member:
-        - jimpick
-    privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
@@ -583,6 +573,16 @@ teams:
         - galargh
         - laurentsenta
     parent_team_id: w3dt-stewards
+    privacy: closed
+  Lotus JS Client:
+    description: Lotus JS Client
+    members:
+      maintainer:
+        - alanshaw
+        - rvagg
+        - vasco-santos
+      member:
+        - jimpick
     privacy: closed
   w3dt-stewards:
     members:
