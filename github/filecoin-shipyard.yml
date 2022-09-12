@@ -42,17 +42,6 @@ repositories:
       admin:
         - w3dt-stewards
     visibility: public
-  NFT-Snapshot-Bot:
-    collaborators:
-      maintain:
-        - jamesmorgan
-        - vince0656
-    default_branch: master
-    description: Filecoin and Ethereum-based NFT Snapshot Bot for Twitter threads
-    teams:
-      admin:
-        - w3dt-stewards
-    visibility: public
   browser-retrieval:
     collaborators:
       admin:
@@ -142,16 +131,6 @@ repositories:
       admin:
         - w3dt-stewards
     visibility: public
-  filecoin-pickaxe:
-    collaborators:
-      push:
-        - jimpick
-    default_branch: master
-    description: Tool for storing/retrieving data in Filecoin
-    teams:
-      admin:
-        - w3dt-stewards
-    visibility: public
   filecoin-pickaxe-agent:
     collaborators:
       push:
@@ -168,6 +147,16 @@ repositories:
         - jimpick
     default_branch: master
     description: Quickly make Filecoin deals for pickaxe bundles
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  filecoin-pickaxe:
+    collaborators:
+      push:
+        - jimpick
+    default_branch: master
+    description: Tool for storing/retrieving data in Filecoin
     teams:
       admin:
         - w3dt-stewards
@@ -324,17 +313,6 @@ repositories:
       - javascript
       - rest
     visibility: public
-  js-lotus-client:
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    description: Lotus JS Client
-    teams:
-      admin:
-        - Lotus JS Client
-        - w3dt-stewards
-    visibility: public
   js-lotus-client-provider-browser:
     collaborators:
       push:
@@ -386,6 +364,17 @@ repositories:
     default_branch: master
     description: Try out an example client app that connects to the Lotus Filecoin
       implementation
+    teams:
+      admin:
+        - Lotus JS Client
+        - w3dt-stewards
+    visibility: public
+  js-lotus-client:
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    description: Lotus JS Client
     teams:
       admin:
         - Lotus JS Client
@@ -443,6 +432,17 @@ repositories:
         - vasa-develop
     default_branch: master
     description: Truffle setup for ERC 721 Meme NFT Token
+    teams:
+      admin:
+        - w3dt-stewards
+    visibility: public
+  NFT-Snapshot-Bot:
+    collaborators:
+      maintain:
+        - jamesmorgan
+        - vince0656
+    default_branch: master
+    description: Filecoin and Ethereum-based NFT Snapshot Bot for Twitter threads
     teams:
       admin:
         - w3dt-stewards
