@@ -15,7 +15,6 @@ members:
     - brunolm
     - jimmylee
     - jimpick
-    - laurentsenta
     - mikeal
     - morrigan
     - protocollabsit-readonly
@@ -40,6 +39,7 @@ repositories:
       go-filecoin devnets in 2019.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   browser-retrieval:
@@ -53,6 +53,7 @@ repositories:
     description: A p2p network of Filecoin content retrievers
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   dumbo-drop:
@@ -63,6 +64,7 @@ repositories:
     description: In Development
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   fil-flow:
@@ -83,6 +85,7 @@ repositories:
     description: Visualising token flows.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: private
   filecoin-big-head:
@@ -93,6 +96,7 @@ repositories:
     description: Displays Filecoin chain height in big letters in terminal
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-browse-asks:
@@ -103,6 +107,7 @@ repositories:
     description: Scroll through Filecoin asks in your terminal
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-cid-checker:
@@ -117,6 +122,7 @@ repositories:
       without a full node
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-network-inspector:
@@ -129,6 +135,7 @@ repositories:
     description: An inspector dashboard for filecoin
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-pickaxe-agent:
@@ -139,6 +146,7 @@ repositories:
     description: Agent to perform requested Filecoin tasks
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-pickaxe-direct-deal:
@@ -149,6 +157,7 @@ repositories:
     description: Quickly make Filecoin deals for pickaxe bundles
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-pickaxe:
@@ -159,6 +168,7 @@ repositories:
     description: Tool for storing/retrieving data in Filecoin
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-storage-helper:
@@ -169,6 +179,7 @@ repositories:
     description: filecoin storage helper
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-tipset-visualizer:
@@ -183,6 +194,7 @@ repositories:
       each height can contain multiple blocks.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-wallet:
@@ -193,6 +205,7 @@ repositories:
     description: A web Filecoin wallet developed in Java
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filecoin.js:
@@ -209,6 +222,7 @@ repositories:
       Filecoin's Lotus node, with support for external signers.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   filscan-block-explorer:
@@ -221,6 +235,7 @@ repositories:
     description: Filscan.io block and message explorer
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   github-mgmt:
@@ -252,6 +267,7 @@ repositories:
     description: Analysis and monitoring tool for Filecoin miners.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   index-observer:
@@ -286,6 +302,7 @@ repositories:
     description: An API client for Filecoin implemented in Java
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     topics:
       - api
@@ -304,6 +321,7 @@ repositories:
     description: An API client for Filecoin
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     topics:
       - api
@@ -321,6 +339,7 @@ repositories:
     description: Lotus JS Client Web Browser Provider module
     teams:
       admin:
+        - ipdx
         - Lotus JS Client
         - w3dt-stewards
     visibility: public
@@ -332,6 +351,7 @@ repositories:
     description: Lotus JS Client Node.js Provider module
     teams:
       admin:
+        - ipdx
         - Lotus JS Client
         - w3dt-stewards
     visibility: public
@@ -343,6 +363,7 @@ repositories:
     description: Lotus JS API JSON-RPC query module
     teams:
       admin:
+        - ipdx
         - Lotus JS Client
         - w3dt-stewards
     visibility: public
@@ -354,6 +375,7 @@ repositories:
     description: Lotus JS Client Schema module
     teams:
       admin:
+        - ipdx
         - Lotus JS Client
         - w3dt-stewards
     visibility: public
@@ -366,6 +388,7 @@ repositories:
       implementation
     teams:
       admin:
+        - ipdx
         - Lotus JS Client
         - w3dt-stewards
     visibility: public
@@ -377,6 +400,7 @@ repositories:
     description: Lotus JS Client
     teams:
       admin:
+        - ipdx
         - Lotus JS Client
         - w3dt-stewards
     visibility: public
@@ -391,6 +415,7 @@ repositories:
       storage of CIDs in IPFS via Powergate
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   lotus-devnet:
@@ -401,6 +426,7 @@ repositories:
     description: A docker-compose setup for running local lotus and IPFS nodes
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   lotus-wasm-experiments:
@@ -411,6 +437,7 @@ repositories:
     description: Experimenting with re-using Lotus to build WebAssembly modules
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   meme-marketplace:
@@ -424,6 +451,7 @@ repositories:
       token standard.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   meme-nft-token:
@@ -434,6 +462,7 @@ repositories:
     description: Truffle setup for ERC 721 Meme NFT Token
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   NFT-Snapshot-Bot:
@@ -445,6 +474,7 @@ repositories:
     description: Filecoin and Ethereum-based NFT Snapshot Bot for Twitter threads
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   npm-go-filecoin-dep:
@@ -455,6 +485,7 @@ repositories:
     description: Download go-filecoin to your node_modules.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   orbit-db-powergate-io:
@@ -465,6 +496,7 @@ repositories:
     description: A bridge between OrbitDB and Filecoin / IPFS via Powergate.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   pinning-service-aggregation:
@@ -477,6 +509,7 @@ repositories:
       IPFS and Powergate backends.
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   powergate-pinning-service:
@@ -489,6 +522,7 @@ repositories:
     description: "A simple pinning service using textile powergate "
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   proxy-retrieval:
@@ -502,6 +536,7 @@ repositories:
       stroage miner indirectly through this proxy
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   shipyard:
@@ -519,6 +554,7 @@ repositories:
     description: A slideshow tour of Lotus using the Lotus JS Client
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   use-filecoin-config:
@@ -529,6 +565,7 @@ repositories:
     description: React hook to load config via Filecoin API
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   use-filecoin-head:
@@ -539,6 +576,7 @@ repositories:
     description: React hook to query head blocks and chain height via Filecoin API
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
   use-filecoin-network-info:
@@ -549,6 +587,7 @@ repositories:
     description: React hook to query network info via Filecoin API
     teams:
       admin:
+        - ipdx
         - w3dt-stewards
     visibility: public
 teams:
@@ -571,7 +610,6 @@ teams:
     members:
       maintainer:
         - galargh
-        - laurentsenta
     parent_team_id: w3dt-stewards
     privacy: closed
   Lotus JS Client:
@@ -589,5 +627,6 @@ teams:
       maintainer:
         - BigLep
       member:
+        - galargh
         - rvagg
     privacy: closed
