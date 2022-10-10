@@ -277,9 +277,9 @@ repositories:
       admin:
         - willscott
       maintain:
-        - masih
-        - ischasny
         - gammazero
+        - ischasny
+        - masih
       push:
         - sti-bot
     default_branch: main
