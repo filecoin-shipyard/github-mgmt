@@ -278,6 +278,8 @@ repositories:
         - willscott
       maintain:
         - masih
+        - ischasny
+        - gammazero
       push:
         - sti-bot
     default_branch: main
