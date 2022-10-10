@@ -277,6 +277,8 @@ repositories:
       admin:
         - willscott
       maintain:
+        - gammazero
+        - ischasny
         - masih
       push:
         - sti-bot
