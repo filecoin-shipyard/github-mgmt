@@ -275,11 +275,11 @@ repositories:
       main: {}
     collaborators:
       admin:
+        - masih
         - willscott
       maintain:
         - gammazero
         - ischasny
-        - masih
       push:
         - sti-bot
     default_branch: main
@@ -292,6 +292,7 @@ repositories:
       maintain:
         - masih
       push:
+        - gammazero
         - sti-bot
     default_branch: main
     description: ⭐️ A load splitter for storetheindex ⭐️
