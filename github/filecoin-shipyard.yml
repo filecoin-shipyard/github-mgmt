@@ -278,6 +278,7 @@ repositories:
         - masih
         - willscott
       maintain:
+        - davidd8
         - gammazero
         - ischasny
       push:
@@ -290,6 +291,7 @@ repositories:
       admin:
         - willscott
       maintain:
+        - davidd8
         - masih
       push:
         - gammazero
