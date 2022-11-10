@@ -280,6 +280,7 @@ repositories:
       maintain:
         - gammazero
         - ischasny
+        - davidd8
       push:
         - sti-bot
     default_branch: main
@@ -291,6 +292,7 @@ repositories:
         - willscott
       maintain:
         - masih
+        - davidd8
       push:
         - gammazero
         - sti-bot
