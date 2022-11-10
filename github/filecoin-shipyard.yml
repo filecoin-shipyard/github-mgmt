@@ -278,9 +278,9 @@ repositories:
         - masih
         - willscott
       maintain:
+        - davidd8
         - gammazero
         - ischasny
-        - davidd8
       push:
         - sti-bot
     default_branch: main
@@ -291,8 +291,8 @@ repositories:
       admin:
         - willscott
       maintain:
-        - masih
         - davidd8
+        - masih
       push:
         - gammazero
         - sti-bot
