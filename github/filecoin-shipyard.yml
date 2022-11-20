@@ -292,6 +292,7 @@ repositories:
         - willscott
       maintain:
         - davidd8
+        - ischasny
         - masih
       push:
         - gammazero
