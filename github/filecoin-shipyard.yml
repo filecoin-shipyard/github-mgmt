@@ -294,7 +294,6 @@ repositories:
       maintain:
         - davidd8
         - ischasny
-        - masih
       push:
         - gammazero
         - sti-bot
