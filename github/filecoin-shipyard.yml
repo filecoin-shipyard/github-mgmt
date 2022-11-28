@@ -290,6 +290,7 @@ repositories:
     collaborators:
       admin:
         - willscott
+        - masih
       maintain:
         - davidd8
         - ischasny
