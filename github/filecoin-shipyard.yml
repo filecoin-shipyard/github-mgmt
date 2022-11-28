@@ -289,6 +289,7 @@ repositories:
   indexstar:
     collaborators:
       admin:
+        - masih
         - willscott
       maintain:
         - davidd8
