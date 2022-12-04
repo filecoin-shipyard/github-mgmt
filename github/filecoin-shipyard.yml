@@ -270,36 +270,6 @@ repositories:
         - ipdx
         - w3dt-stewards
     visibility: public
-  index-observer:
-    branch_protection:
-      main: {}
-    collaborators:
-      admin:
-        - masih
-        - willscott
-      maintain:
-        - davidd8
-        - gammazero
-        - ischasny
-      push:
-        - sti-bot
-    default_branch: main
-    description: An observability tool for storetheindex content routing systems & providers
-    visibility: public
-  indexstar:
-    collaborators:
-      admin:
-        - masih
-        - willscott
-      maintain:
-        - davidd8
-        - ischasny
-      push:
-        - gammazero
-        - sti-bot
-    default_branch: main
-    description: ⭐️ A load splitter for storetheindex ⭐️
-    visibility: public
   java-filecoin-api-client:
     collaborators:
       push:
