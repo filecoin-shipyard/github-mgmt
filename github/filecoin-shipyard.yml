@@ -2,12 +2,12 @@
 
 members:
   admin:
+    - andyschwab-admin
     - BigLep
     - eshon
     - galargh
     - mishmosh
     - pooja
-    - protocollabsit
   member:
     - alanshaw
     - andyschwab
@@ -17,7 +17,6 @@ members:
     - jimpick
     - mikeal
     - morrigan
-    - protocollabsit-readonly
     - rvagg
     - steven004
     - vasa-develop
