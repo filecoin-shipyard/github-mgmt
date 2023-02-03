@@ -75,11 +75,8 @@ repositories:
         - jbenet
         - nicola
         - olizilla
-        - placer14
         - willscott
         - zixuanzh
-      pull:
-        - davidgasquez
     default_branch: main
     description: Visualising token flows.
     teams:
