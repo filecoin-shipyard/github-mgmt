@@ -564,6 +564,7 @@ repositories:
     visibility: public
 teams:
   Alumni:
+    create_default_maintainer: false
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
