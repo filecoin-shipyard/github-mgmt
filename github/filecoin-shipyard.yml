@@ -27,21 +27,32 @@ members:
     - yangjian102621
 repositories:
   2019-filecoin-network-stats:
+    advanced_security: false
+    allow_update_branch: false
     branch_protection:
-      master: {}
-      release: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
+      release:
+        blocks_creations: false
+        lock_branch: false
     collaborators:
       admin:
         - eshon
     default_branch: master
     description: (Deprecated) Dashboard by Kyokan for tracking network state of
       go-filecoin devnets in 2019.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   browser-retrieval:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - aistoc
@@ -50,23 +61,33 @@ repositories:
         - ionutiorgulescu
     default_branch: master
     description: A p2p network of Filecoin content retrievers
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   dumbo-drop:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - mikeal
     default_branch: master
     description: In Development
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   fil-flow:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alanshaw
@@ -79,34 +100,53 @@ repositories:
         - zixuanzh
     default_branch: main
     description: Visualising token flows.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: private
   filecoin-big-head:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: Displays Filecoin chain height in big letters in terminal
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-browse-asks:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: Scroll through Filecoin asks in your terminal
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-cid-checker:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alexandrumatei36
@@ -116,12 +156,17 @@ repositories:
     default_branch: master
     description: A website and API to verify the status of CIDs stored on Filecoin
       without a full node
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-network-inspector:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - vasa-develop
@@ -129,56 +174,81 @@ repositories:
         - brunolm
     default_branch: master
     description: An inspector dashboard for filecoin
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-pickaxe-agent:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: Agent to perform requested Filecoin tasks
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-pickaxe-direct-deal:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: Quickly make Filecoin deals for pickaxe bundles
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-pickaxe:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: Tool for storing/retrieving data in Filecoin
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-storage-helper:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - waynewyang
     default_branch: master
     description: filecoin storage helper
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-tipset-visualizer:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - liviudm
@@ -188,23 +258,33 @@ repositories:
     default_branch: main
     description: Shows the Tipset structure of the Filecoin blockchain, a Tipset at
       each height can contain multiple blocks.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin-wallet:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - yangjian102621
     default_branch: master
     description: A web Filecoin wallet developed in Java
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filecoin.js:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alexandrumatei36
@@ -216,12 +296,21 @@ repositories:
     default_branch: master
     description: A JavaScript (and TypeScript) library for interacting with the
       Filecoin's Lotus node, with support for external signers.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   filscan-block-explorer:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - steven004
@@ -229,6 +318,13 @@ repositories:
         - web3-bot
     default_branch: master
     description: Filscan.io block and message explorer
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -236,8 +332,12 @@ repositories:
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
+    advanced_security: false
+    allow_update_branch: true
     branch_protection:
-      master: {}
+      master:
+        blocks_creations: false
+        lock_branch: false
     default_branch: master
     files:
       CODEOWNERS:
@@ -248,6 +348,13 @@ repositories:
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/filecoin-shipyard.yml @filecoin-shipyard/github-mgmt-stewards @filecoin-shipyard/ipdx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
@@ -256,22 +363,32 @@ repositories:
         - github-mgmt stewards
     visibility: public
   hactar:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - morrigan
     default_branch: master
     description: Analysis and monitoring tool for Filecoin miners.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   java-filecoin-api-client:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - yangjian102621
     default_branch: master
     description: An API client for Filecoin implemented in Java
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
@@ -285,12 +402,17 @@ repositories:
       - spring-boot
     visibility: public
   js-filecoin-api-client:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alanshaw
         - mishmosh
     default_branch: master
     description: An API client for Filecoin
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
@@ -304,11 +426,20 @@ repositories:
       - rest
     visibility: public
   js-lotus-client-provider-browser:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
     default_branch: master
     description: Lotus JS Client Web Browser Provider module
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -316,11 +447,20 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-lotus-client-provider-nodejs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
     default_branch: master
     description: Lotus JS Client Node.js Provider module
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -328,11 +468,20 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-lotus-client-rpc:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
     default_branch: master
     description: Lotus JS API JSON-RPC query module
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -340,11 +489,20 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-lotus-client-schema:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
     default_branch: master
     description: Lotus JS Client Schema module
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -352,12 +510,21 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-lotus-client-workshop:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
     default_branch: master
     description: Try out an example client app that connects to the Lotus Filecoin
       implementation
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -365,11 +532,20 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-lotus-client:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
     default_branch: master
     description: Lotus JS Client
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
@@ -377,6 +553,8 @@ repositories:
         - w3dt-stewards
     visibility: public
   lighthouse-eth-fil-crosschain-infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - nandit123
@@ -385,34 +563,53 @@ repositories:
     default_branch: main
     description: Provides a way for Ethereum smart contracts to request Filecoin
       storage of CIDs in IPFS via Powergate
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   lotus-devnet:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - vasa-develop
     default_branch: master
     description: A docker-compose setup for running local lotus and IPFS nodes
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   lotus-wasm-experiments:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jimpick
     default_branch: main
     description: Experimenting with re-using Lotus to build WebAssembly modules
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   meme-marketplace:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vasa-develop
@@ -421,57 +618,82 @@ repositories:
     default_branch: master
     description: A meme marketplace example created using Textile Hub and ERC 721
       token standard.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   meme-nft-token:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - vasa-develop
     default_branch: master
     description: Truffle setup for ERC 721 Meme NFT Token
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   NFT-Snapshot-Bot:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - jamesmorgan
         - vince0656
     default_branch: master
     description: Filecoin and Ethereum-based NFT Snapshot Bot for Twitter threads
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   npm-go-filecoin-dep:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - alanshaw
     default_branch: master
     description: Download go-filecoin to your node_modules.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   orbit-db-powergate-io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - aphelionz
     default_branch: master
     description: A bridge between OrbitDB and Filecoin / IPFS via Powergate.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   pinning-service-aggregation:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - oed
@@ -479,12 +701,17 @@ repositories:
     default_branch: master
     description: Use multiple pinning services like they are one, including vanilla
       IPFS and Powergate backends.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   powergate-pinning-service:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - vasa-develop
@@ -492,12 +719,17 @@ repositories:
         - brunolm
     default_branch: master
     description: "A simple pinning service using textile powergate "
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   proxy-retrieval:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - aistoc
@@ -506,57 +738,85 @@ repositories:
     default_branch: master
     description: A simple method of allowing a browser node to retrieve from a
       stroage miner indirectly through this proxy
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   shipyard:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - pooja
     default_branch: master
     description: Start here if you're interested in learning more about the shipyard
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     visibility: public
   tour-de-lotus:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jimpick
     default_branch: master
     description: A slideshow tour of Lotus using the Lotus JS Client
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   use-filecoin-config:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: React hook to load config via Filecoin API
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   use-filecoin-head:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: React hook to query head blocks and chain height via Filecoin API
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
         - w3dt-stewards
     visibility: public
   use-filecoin-network-info:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - jimpick
     default_branch: master
     description: React hook to query network info via Filecoin API
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ipdx
