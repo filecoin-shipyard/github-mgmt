@@ -29,6 +29,7 @@ repositories:
   2019-filecoin-network-stats:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     branch_protection:
       master:
         blocks_creations: false
@@ -57,6 +58,7 @@ repositories:
   browser-retrieval:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - aistoc
@@ -80,6 +82,7 @@ repositories:
   dumbo-drop:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - mikeal
@@ -100,6 +103,7 @@ repositories:
   fil-flow:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -127,6 +131,7 @@ repositories:
   filecoin-big-head:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
@@ -147,6 +152,7 @@ repositories:
   filecoin-browse-asks:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
@@ -167,6 +173,7 @@ repositories:
   filecoin-cid-checker:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - alexandrumatei36
@@ -191,6 +198,7 @@ repositories:
   filecoin-network-inspector:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       maintain:
         - vasa-develop
@@ -213,6 +221,7 @@ repositories:
   filecoin-pickaxe-agent:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
@@ -233,6 +242,7 @@ repositories:
   filecoin-pickaxe-direct-deal:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
@@ -253,6 +263,7 @@ repositories:
   filecoin-pickaxe:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
@@ -273,6 +284,7 @@ repositories:
   filecoin-storage-helper:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - waynewyang
@@ -293,6 +305,7 @@ repositories:
   filecoin-tipset-visualizer:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - liviudm
@@ -317,6 +330,7 @@ repositories:
   filecoin-wallet:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - yangjian102621
@@ -337,6 +351,7 @@ repositories:
   filecoin.js:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       admin:
         - alexandrumatei36
@@ -363,6 +378,7 @@ repositories:
   filscan-block-explorer:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       maintain:
         - steven004
@@ -386,6 +402,7 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
     allow_update_branch: true
+    archived: false
     branch_protection:
       master:
         blocks_creations: false
@@ -417,6 +434,7 @@ repositories:
   hactar:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - morrigan
@@ -437,6 +455,7 @@ repositories:
   java-filecoin-api-client:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - yangjian102621
@@ -464,6 +483,7 @@ repositories:
   js-filecoin-api-client:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - alanshaw
@@ -492,6 +512,7 @@ repositories:
   js-lotus-client-provider-browser:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -513,6 +534,7 @@ repositories:
   js-lotus-client-provider-nodejs:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -534,6 +556,7 @@ repositories:
   js-lotus-client-rpc:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -555,6 +578,7 @@ repositories:
   js-lotus-client-schema:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -576,6 +600,7 @@ repositories:
   js-lotus-client-workshop:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -598,6 +623,7 @@ repositories:
   js-lotus-client:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -619,6 +645,7 @@ repositories:
   lighthouse-eth-fil-crosschain-infra:
     advanced_security: false
     allow_update_branch: false
+    archived: false
     collaborators:
       maintain:
         - nandit123
@@ -642,6 +669,7 @@ repositories:
   lotus-devnet:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       maintain:
         - vasa-develop
@@ -662,6 +690,7 @@ repositories:
   lotus-wasm-experiments:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - jimpick
@@ -682,6 +711,7 @@ repositories:
   meme-marketplace:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - vasa-develop
@@ -705,6 +735,7 @@ repositories:
   meme-nft-token:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       maintain:
         - vasa-develop
@@ -725,6 +756,7 @@ repositories:
   NFT-Snapshot-Bot:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       maintain:
         - jamesmorgan
@@ -746,6 +778,7 @@ repositories:
   npm-go-filecoin-dep:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - alanshaw
@@ -766,6 +799,7 @@ repositories:
   orbit-db-powergate-io:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       maintain:
         - aphelionz
@@ -786,6 +820,7 @@ repositories:
   pinning-service-aggregation:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       maintain:
         - oed
@@ -808,6 +843,7 @@ repositories:
   powergate-pinning-service:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       maintain:
         - vasa-develop
@@ -830,6 +866,7 @@ repositories:
   proxy-retrieval:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - aistoc
@@ -853,6 +890,7 @@ repositories:
   shipyard:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - pooja
@@ -869,6 +907,7 @@ repositories:
   tour-de-lotus:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - jimpick
@@ -889,6 +928,7 @@ repositories:
   use-filecoin-config:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
@@ -909,6 +949,7 @@ repositories:
   use-filecoin-head:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
@@ -929,6 +970,7 @@ repositories:
   use-filecoin-network-info:
     advanced_security: false
     allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - jimpick
