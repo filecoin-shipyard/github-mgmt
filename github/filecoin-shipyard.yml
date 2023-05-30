@@ -15,7 +15,6 @@ members:
     - brunolm
     - jimmylee
     - jimpick
-    - mikeal
     - morrigan
     - rvagg
     - steven004
@@ -83,9 +82,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - mikeal
     default_branch: master
     description: In Development
     has_discussions: false
