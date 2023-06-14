@@ -112,6 +112,9 @@ repositories:
         - zixuanzh
     default_branch: main
     description: Visualising token flows.
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -359,6 +362,9 @@ repositories:
     default_branch: master
     description: A JavaScript (and TypeScript) library for interacting with the
       Filecoin's Lotus node, with support for external signers.
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
