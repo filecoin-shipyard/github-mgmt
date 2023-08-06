@@ -357,8 +357,6 @@ repositories:
       maintain:
         - popra
         - smooth-operator
-      push:
-        - web3-bot
     default_branch: master
     description: A JavaScript (and TypeScript) library for interacting with the
       Filecoin's Lotus node, with support for external signers.
@@ -384,8 +382,6 @@ repositories:
     collaborators:
       maintain:
         - steven004
-      push:
-        - web3-bot
     default_branch: master
     description: Filscan.io block and message explorer
     has_discussions: false
@@ -515,9 +511,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Lotus JS Client Web Browser Provider module
     has_discussions: false
@@ -537,9 +530,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Lotus JS Client Node.js Provider module
     has_discussions: false
@@ -559,9 +549,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Lotus JS API JSON-RPC query module
     has_discussions: false
@@ -603,9 +590,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Try out an example client app that connects to the Lotus Filecoin
       implementation
@@ -626,9 +610,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Lotus JS Client
     has_discussions: false
@@ -651,8 +632,6 @@ repositories:
     collaborators:
       maintain:
         - nandit123
-      push:
-        - web3-bot
     default_branch: main
     description: Provides a way for Ethereum smart contracts to request Filecoin
       storage of CIDs in IPFS via Powergate
