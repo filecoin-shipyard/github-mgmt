@@ -60,7 +60,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      admin:
         - masih
     default_branch: main
     description: Filecoin Boost Client Library in Go
@@ -912,7 +912,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      admin:
         - masih
     default_branch: main
     description: ":satellite: Filecoin API client in pure Go"
