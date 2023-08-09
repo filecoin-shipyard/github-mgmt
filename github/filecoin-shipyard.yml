@@ -1023,6 +1023,7 @@ teams:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
       member:
+        - masih
         - rvagg
         - willscott
     privacy: closed
