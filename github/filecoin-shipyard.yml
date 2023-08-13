@@ -59,9 +59,15 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    branch_protection:
+      main:
+        blocks_creations: false
+        lock_branch: false
     collaborators:
       admin:
         - masih
+      push:
+        - web3-bot
     default_branch: main
     description: Filecoin Boost Client Library in Go
     has_discussions: false
@@ -911,9 +917,15 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    branch_protection:
+      main:
+        blocks_creations: false
+        lock_branch: false
     collaborators:
       admin:
         - masih
+      push:
+        - web3-bot
     default_branch: main
     description: ":satellite: Filecoin API client in pure Go"
     has_discussions: false
