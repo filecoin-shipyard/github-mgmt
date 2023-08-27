@@ -506,6 +506,29 @@ repositories:
       - retrofit2
       - spring-boot
     visibility: public
+  jiffy:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        blocks_creations: false
+        lock_branch: false
+    collaborators:
+      admin:
+        - masih
+      push:
+        - web3-bot
+    default_branch: main
+    description: Just In-time Filecoin For You
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-filecoin-api-client:
     advanced_security: false
     allow_update_branch: false
