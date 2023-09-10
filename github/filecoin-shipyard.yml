@@ -698,6 +698,27 @@ repositories:
         - ipdx
         - w3dt-stewards
     visibility: public
+  lotus-containers:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        blocks_creations: false
+        lock_branch: false
+    collaborators:
+      admin:
+        - masih
+    default_branch: main
+    description: Seamless Lotus Container Images
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   lotus-devnet:
     advanced_security: false
     allow_update_branch: false
@@ -923,6 +944,10 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    branch_protection:
+      main:
+        blocks_creations: false
+        lock_branch: false
     collaborators:
       admin:
         - masih
