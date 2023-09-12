@@ -15,6 +15,7 @@ members:
     - brunolm
     - jimmylee
     - jimpick
+    - lexluthr
     - masih
     - morrigan
     - rvagg
@@ -25,7 +26,6 @@ members:
     - web3-bot
     - willscott
     - yangjian102621
-    - lexluthr
 repositories:
   2019-filecoin-network-stats:
     advanced_security: false
@@ -709,8 +709,8 @@ repositories:
         lock_branch: false
     collaborators:
       admin:
-        - masih
         - lexluthr
+        - masih
     default_branch: main
     description: Seamless Lotus Container Images
     has_discussions: false
