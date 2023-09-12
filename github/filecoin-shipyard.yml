@@ -15,6 +15,7 @@ members:
     - brunolm
     - jimmylee
     - jimpick
+    - lexluthr
     - masih
     - morrigan
     - rvagg
@@ -708,6 +709,7 @@ repositories:
         lock_branch: false
     collaborators:
       admin:
+        - lexluthr
         - masih
     default_branch: main
     description: Seamless Lotus Container Images
