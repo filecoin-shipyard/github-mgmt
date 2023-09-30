@@ -13,6 +13,7 @@ members:
     - andyschwab
     - arajasek
     - brunolm
+    - gammazero
     - jimmylee
     - jimpick
     - lexluthr
@@ -952,6 +953,7 @@ repositories:
         lock_branch: false
     collaborators:
       admin:
+        - gammazero
         - masih
     default_branch: main
     description: End to end test for all things Filecoin
@@ -1102,6 +1104,7 @@ teams:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
       member:
+        - gammazero
         - masih
         - rvagg
         - willscott
