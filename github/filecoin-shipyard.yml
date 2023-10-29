@@ -950,6 +950,8 @@ repositories:
     collaborators:
       admin:
         - willscott
+      push:
+        - TorfinnOlsen
     default_branch: main
     description: Tools for understanding and incentivizing retrieval in the filecoin network
     has_discussions: false
