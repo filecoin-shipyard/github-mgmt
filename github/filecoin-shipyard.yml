@@ -23,7 +23,6 @@ members:
     - vasa-develop
     - vasco-santos
     - waynewyang
-    - web3-bot
     - willscott
     - yangjian102621
 repositories:
@@ -67,8 +66,6 @@ repositories:
     collaborators:
       admin:
         - masih
-      push:
-        - web3-bot
     default_branch: main
     description: Filecoin Boost Client Library in Go
     has_discussions: false
@@ -415,8 +412,6 @@ repositories:
     collaborators:
       admin:
         - masih
-      push:
-        - web3-bot
     default_branch: main
     description: ":key: Securely Generate JWT from Filecoin Wallet"
     has_discussions: false
@@ -545,8 +540,6 @@ repositories:
     collaborators:
       admin:
         - masih
-      push:
-        - web3-bot
     default_branch: main
     description: Just In-time Filecoin For You
     has_discussions: false
@@ -647,9 +640,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     description: Lotus JS Client Schema module
     has_discussions: false
@@ -1038,8 +1028,6 @@ repositories:
     collaborators:
       admin:
         - masih
-      push:
-        - web3-bot
     default_branch: main
     description: ":satellite: Filecoin API client in pure Go"
     has_discussions: false
